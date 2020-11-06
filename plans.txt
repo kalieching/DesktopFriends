@@ -1,0 +1,22 @@
+money-saving monkey
+ + Hello ___! Make sure to put away $x money today!
+ + Remember to pay your expenses for this month.
+ + Take a minute to check your credit score today.
+ + Set aside some time to check the stock market.
+ + Hey! Maybe set up a garage sale?
+
+self care snake
+ + What's up? Go take a sip of water and stay hydrated!
+ + Hey, sit up straight and fix that posture of yours! 
+ + Bring the phone to your face! <-- sorry idk what this means lol
+ + Hey, you've been working for a while, go stretch!
+ + Here's a cute picture to make you smile! (p1)
+ + You've been working for a long time, why don't you take a short break?
+ + Take a minute to reflect. What was a high and a low of today?
+ + Hey, maybe you should go eat a fresh bowl of fruit!
+
+healthy hare
+
+productivity panda
+ + reminders for meetings
+ +Go read 15 pages of a new book!

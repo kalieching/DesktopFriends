@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Desktop Friends</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="script.js" defer></script>
+    <script src="Animal.js" defer></script>
+    <script src="Reminder.js" defer></script>
+    <script src="Appointment.js" defer></script>
+
+    
+    <!-- import the p5.js library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.js"></script>
+  </head>  
+  <body>
+
+    <div id="settings" class="sidepanel">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeSettings()">×</a>
+      <form>
+    <div>
+
+      <p><b>Customize your Desktop Friends experience! </b></p>
+
+      <!--SELF-CARE SNAKE-->
+      <label for="snake"> 
+        <input type="checkbox" class="checkbox" id="snake" name="self_care_snake">
+        Self Care Snake
+      </label>
+
+      <img src="/img/snake.png" alt="Self-Care Snake" width="15%">
+
+      <div class="popup" onclick="snakePopup()">Click here to learn more about me!
+        <span class="popuptext" id="snakePopup">The self-help snake will remind you to stay hydrated, sit up straight, stretch every once in a while, and take breaks from screens.</span>
+      </div>
+
+
+      <label for="snake_water"> 
+        <input type="checkbox" class="checkbox" id="snake_water" name="self_care_snake_reminder">
+        Staying Hydrated
+      </label>
+
+      <label for="snake-posture"> 
+        <input type="checkbox" class="checkbox" id="snake_posture" name="self_care_snake_reminder">
+        Posture Check
+      </label>
+
+      <hr>
+      <br>
+      
+      <!--PRODUCTIVITY PANDA-->
+
+      <label for="panda"> 
+        <input type="checkbox" class="checkbox" id="panda" name="productivity_panda">
+        Productivity Panda 
+      </label>
+
+      <img src="/img/panda.png" alt="Productivity Panda" width="15%">
+
+      <div class="popup" onclick="pandaPopup()">Click here to learn more about me!
+        <span class="popuptext" id="pandaPopup">The productivity panda will remind you of scheduled meetings and deadlines. It will also remind to read for a while!</span>
+      </div>
+
+      <label for="panda_deadlines"> 
+        <input type="checkbox" class="checkbox" id="panda_deadlines" name="productivity_panda_reminder">
+        Upcoming Deadlines
+      </label>
+
+      <label for="panda_meetings"> 
+        <input type="checkbox" class="checkbox" id="panda_meetings" name="productivity_panda_reminder">
+        Meeting in 10 Minutes
+      </label>
+
+      <hr>
+      <br>
+      
+      <!--MONEY SAVING MONKEY-->
+
+      <label for="monkey"> 
+        <input type="checkbox" class="checkbox" id="monkey" name="money_saving_monkey">
+        Money-Saving Monkey </label>
+
+      <img src="/img/monkey.png" alt="Money-Saving Monkey" width="15%">
+
+      <div class="popup" onclick="monkeyPopup()">Click here to learn more about me!
+        <span class="popuptext" id="monkeyPopup">The money saving monkey will remind you to put away small amounts to save for later.</span>
+      </div>
+
+      <label for="monkey_save"> 
+        <input type="checkbox" class="checkbox" id="monkey_save" name="money_saving_monkey">
+        Saving Money
+      </label>
+      <label for="monkey_stock"> 
+        <input type="checkbox" class="checkbox" id="monkey_stock" name="money_saving_monkey">
+        Stock Market Investing
+      </label>
+
+
+      
+
+      </form>
+  </div>
+    </div>
+
+    <button class="settingsBtn" onclick="openSettings()"> Customize! </button>
+
+
+  </body>
+</html>
